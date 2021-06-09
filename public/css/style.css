@@ -1,0 +1,247 @@
+*
+{
+    padding: 0px;
+    margin: 0px;
+}
+@font-face {
+  font-family: MATURASC;
+  src: url(../fonts/MATURASC.TTF);
+}
+body.home
+{
+    background-color: #f5f0ed;
+    background-image: url("../images/bg.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.logo{
+    width: 25%;
+}
+.float-right{
+    float: right;
+}
+.navbar{
+    padding-right: 3vw;
+}
+.navbar .nav-item{
+    padding: 10px 20px;
+}
+.navbar .nav-item .nav-link{
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    color: #5c7470;
+    padding: 0;
+}
+.navbar .nav-item .nav-link.active{
+    border-bottom: 1px solid;
+}
+.navbar #navbarNav >i{
+    color: #5c7470;
+    font-size: 20px;
+}
+.search{
+    position: relative;
+    margin: 0 20px;
+}
+.search input{
+    border-radius: 20px;
+    padding: 5px 15px;
+    border: 0;
+    box-shadow: inset 1px 1px 3px 1px #c2c2c2;
+}
+.search i{
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    color: #999;
+}
+.let{
+    width: 36vw;
+    float: right;
+}
+.let h1{
+    padding-right: 4.5%;
+    font-family: MATURASC;
+    color: #43769e;
+    font-size: 6.5vw;
+    margin-top: 35px;
+}
+.discover{
+    color: #43769e;
+    border-radius: 20px;
+    background-color: #edbb54;
+    font-weight: bold;
+    padding: 5px 25px;
+    float: left;
+    margin-top: 40px;
+}
+
+.video-section{
+    padding-top: 18vw;
+    position: relative;
+}
+.shape{
+    float: right;
+    width: 20vw;
+    margin-top: 10vw;
+}
+.video-section h2{
+    padding-top: 33vw;
+    color: #43769e;
+    z-index: 99;
+    position: relative;
+    width: 45%;
+    padding-left: 6vw;
+    font-size: 2.2vw;
+    display: inline-block;
+}
+.video-section .video{
+    display: inline-block;
+    float: right;
+    margin-top: 30vw;
+    color: #edbb54;
+    font-weight: bolder;
+    font-size: 4vw;
+    text-align: right;
+    right: 5vw;
+    position: absolute;
+    padding: 80px 65px;
+    border: 7px solid;
+}
+.shape2{
+    width: 70%;
+    position: absolute;
+    top: 40vw;
+    left: -8vw;
+}
+/*home third part*/
+.info_section>img:nth-child(2){
+    position: absolute;
+    right: 0;
+    width: 18vw;
+}
+.info_section>img:nth-child(3){
+    position: absolute;
+    left: 0;
+    width: 7vw;
+}
+
+.third{
+    padding-top: 27em;   
+    padding-bottom: 7em;
+}
+.third > div > div >div{
+    border: 3px solid #43769e;
+    height: 100%;
+    position: relative;
+}
+.third > div > div:nth-child(3) div img{
+    width: 40%;
+    margin-top: -42%;
+    margin-left: 10%;
+}
+.third > div > div:nth-child(2) div img{
+    margin-top: -14%;
+}
+.third > div > div:nth-child(1) div img{
+    width: 80%;
+    right: -27%;
+    bottom: -22%;
+    position: relative;
+}
+.third > div > div >div h2{
+    position: absolute;
+    font-family: MATURASC;
+    color: #edbb54;
+    font-size: 3.5vw;
+    margin-top: 35px;
+    top: 25%;
+    left: 8%;
+}
+.third > div > div:nth-child(2) >div h2{
+    top: unset;
+    bottom: 6%;
+    text-align: center;
+    right: 0;
+    left: 0;
+}
+.third > div > div:nth-child(3) >div h2{
+    top: unset;
+    top: unset;
+    bottom: -1%;
+    text-align: center;
+    right: 8%;
+    left: unset;
+}
+.social{
+    margin: 10em 20px 2em;
+}
+.social i{
+    color: #fff;
+    background-color: #43769e;
+    border-radius: 50%;
+    margin: 0 5px;
+    padding: 5px;
+    height: 28px;
+    width: 28px;
+    text-align: center;
+    line-height: 18px;
+}
+
+/*sign up page*/
+body.sign_up{
+    background-color: #f5f0ed;
+    background-image: url("../images/signup_bg.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.title{
+    text-align: center;
+    color: #edbb54;
+    font-weight: bolder;
+    margin-top: -5%;
+    margin-bottom: 30px;
+}
+.sign_up form div{
+    margin: auto;
+}
+.sign_up form label{
+    width: 40%;
+    display: inline-block;
+    text-align: right;
+    margin-bottom: 40px;
+    font-weight: bold;
+    font-size: 26px;
+    color: #43769e;
+
+}
+.signup_form .submit{
+    width: 110px;
+    margin: 10px auto;
+    background-color: #edbb54;
+    color: #43769e;
+    display: block;
+    font-weight: bold;
+    border-radius: 0;
+    padding: 5px;
+    border: 1px solid;
+    position: relative;
+}
+.signup_form .submit:after{
+    content: "";
+    position: absolute;
+    top: 5px;
+    left: -10px;
+    width: 100%;
+    height: 100%;
+    border: 3px solid #fff;
+}
+.sign_up .signup_form input{
+    padding: 5px;
+    border-radius: 5px;
+    border: 0;
+    width: 55%;
+    margin-left: 2%;
+    color: #fff;
+    background-color: #43769ea8;
+}
